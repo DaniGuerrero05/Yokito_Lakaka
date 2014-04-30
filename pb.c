@@ -43,7 +43,7 @@ int main(int argc, char** argv)
 {
 int balls[6];
 int count_balls = 0;
-int favorite = 0; // this should be a bool
+int favourite = 0; // this should be a bool
 for (int i=1; i<argc; i++)
 {
 goto usage_error;
@@ -84,7 +84,7 @@ if (LUCKY_NUMBER == power_ball)
 {
 result = result * 2;
 }
-if (favorite)
+if (favourite)
 {
 result = result * 2;
 }
